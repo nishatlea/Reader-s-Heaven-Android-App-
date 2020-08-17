@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main6Activity"
+    android:background="@drawable/back7"
+
+    >
+
+
+    <TextView
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Click 'DONE' if  shopping is complete  "
+        />
+
+
+    <Button
+        android:id="@+id/cc1"
+        android:text="Bolaka  250/="
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/cc2"
+        android:text="Lal Nil Dipaboli  150/="
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc3"
+        android:text="Harry Potter and The Philosophers Stone 300/="
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc4"
+        android:text="Tukunjil 140/="/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc5"
+        android:text="Aronnok 230/="
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc6"
+        android:text="Satkahon 330/="
+        />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cc7"
+    android:text="Hajar Bochor Dhore 100/="
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc8"
+        android:text="kalpurush   400/="
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/done1"
+        android:text="Done"
+        />
+
+
+
+
+</LinearLayout>

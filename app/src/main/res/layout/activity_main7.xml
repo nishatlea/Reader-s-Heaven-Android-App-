@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back8"
+    android:orientation="vertical"
+    tools:context=".main7Activity"
+    >
+
+    <TextView
+        android:id="@+id/ttabc"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#485784"
+        android:textIsSelectable="true"
+        android:text=" "
+        />
+    <Button
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Payment"
+        android:id="@+id/pay1"
+        />
+</LinearLayout>
